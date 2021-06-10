@@ -1,0 +1,266 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 50px 10px;
+}
+
+.image {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+
+.container {
+    width: 1100px;
+    height: 920px;
+    background-color: rgb(243, 242, 242);
+    margin-left: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.box1 {
+    width: 400px;
+    height: 740px;
+    background-color: white;
+    margin-left: 100px;
+    border-radius: 12px;
+}
+
+.box2 {
+    width: 400px;
+    height: 740px;
+    background-color: white;
+    margin-left: 50px;
+    border-radius: 24px;
+}
+
+.welcome {
+    padding-left: 20px;
+    padding-top: 23px;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+.wrapp {
+    color: rgb(158, 157, 157);
+    padding-left: 23px;
+    margin-top: 10px;
+}
+
+.blue1 {
+    background-color: rgb(53, 53, 250);
+    border-radius: 75px;
+    border-bottom-left-radius: 10px;
+    width: 320px;
+    height: 420px;
+    margin-left: 40px;
+    margin-top: 65px;
+}
+
+.blue2 {
+    background-color: rgb(53, 53, 250);
+    border-radius: 75px;
+    border-bottom-left-radius: 10px;
+    width: 320px;
+    height: 470px;
+    margin-left: 40px;
+    margin-top: 65px;
+}
+
+.Log {
+    color: whitesmoke;
+    padding-top: 40px;
+    padding-left: 30px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.item1 {
+    background-color: rgb(53, 53, 250);
+    width: 260px;
+    height: 140px;
+    margin-left: 26px;
+    
+}
+
+.icon-input1 {
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(233, 233, 233);
+    padding: 7px 10px;
+}
+
+.icon1 {
+    color: rgb(233, 233, 233);
+}
+
+.email::placeholder {
+    color: rgb(233, 233, 233);
+    font-size: 17px;
+}
+
+.email {
+    outline: none;
+    background-color: rgb(53, 53, 250);
+    border: none;
+    padding: 15px 25px;
+}
+
+.icon-input2 {
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(233, 233, 233);
+    padding: 7px 10px;
+    margin-top: 12px;
+}
+
+.icon2 {
+    color: rgb(233, 233, 233);
+}
+
+.password::placeholder {
+    color: rgb(233, 233, 233);
+    font-size: 17px;
+}
+
+.password {
+    outline: none;
+    background-color: rgb(53, 53, 250);
+    border: none;
+    padding: 15px 25px;
+}
+
+
+.forgot {
+    margin-left: 155px;
+    margin-top: 5px;
+    color: rgb(238, 237, 237);
+}
+
+.button {
+    padding: 15px 90px;
+    border-radius: 30px;
+    margin-left: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.child {
+    margin: 0px;
+    padding: 0px;
+    font-weight: 600;
+}
+
+.parent {
+    margin-top: 12px;
+    display: flex;
+}
+
+.have {
+    margin-left: 60px;
+    font-weight: 600;
+}
+
+.join {
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(0, 47, 255);
+    margin-top: 15px;
+    margin-left: 4px;
+}
+
+.photo1 {
+    position: absolute;
+    border-radius: 50%;
+    border-top-left-radius: 0px;
+    background-color: gainsboro;
+    width: 100px;
+    height: 100px;
+    top: 250px;
+    left: 1040px;
+}
+
+.uzun {
+    position: absolute;
+    top: 875px;
+    left: 710px;
+    width: 1100px;
+    height: 95px;
+    background: linear-gradient(175deg, rgb(243, 242, 242) 49%, rgb(53, 53, 250) 51%);
+}
+
+.icon-input3 {
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(233, 233, 233);
+    padding: 7px 10px;
+}
+
+.icon3 {
+    color: rgb(233, 233, 233);
+}
+
+.name::placeholder {
+    color: rgb(233, 233, 233);
+    font-size: 17px;
+}
+
+.name {
+    outline: none;
+    background-color: rgb(53, 53, 250);
+    border: none;
+    padding: 15px 25px;
+    /* margin-bottom: 15px; */
+}
+
+.forgot2 {
+    margin-left: 155px;
+    margin-top: 5px;
+    color: rgb(238, 237, 237);
+}
+
+.item2 {
+    background-color: rgb(53, 53, 250);
+    width: 260px;
+    height: 220px;
+    margin-left: 26px;
+}
+
+.top {
+    margin-top: 15px;
+}
+
+.photo2 {
+    position: absolute;
+    border-radius: 50%;
+    border-top-left-radius: 0px;
+    background-color: gainsboro;
+    width: 100px;
+    height: 100px;
+    top: 250px;
+    left: 1485px;
+}
+
+.rossalina {
+    margin-left: 15px;
+    margin-top: 3px;
+}
+
+.dumaloq {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+     margin: 50px 0px 0px 45px ;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.icon5 {
+    color: blue;
+}
